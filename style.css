@@ -38,7 +38,6 @@ body {
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif
 }
 
-.eye,
 .image-div,
 .logo,
 .navbar,
@@ -451,12 +450,6 @@ noscript {
     color: var(--color-white)
 }
 
-.blob,
-.eye,
-.pupil {
-    border-radius: 50%
-}
-
 .popup {
     animation: 3s linear pop-up
 }
@@ -498,29 +491,6 @@ noscript {
     gap: 5px;
     z-index: 1;
     padding-left: 1px
-}
-
-.eye {
-    width: 8px;
-    height: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff
-}
-
-.left-eye {
-    box-shadow: -1px -2px 2px rgba(0, 0, 0, .589) inset
-}
-
-.right-eye {
-    box-shadow: 1px 3px 2px rgba(0, 0, 0, .589) inset
-}
-
-.pupil {
-    width: 3.5px;
-    height: 3.5px;
-    background: #241010
 }
 
 .logo:hover {
@@ -1500,48 +1470,6 @@ footer {
     justify-content: center;
     gap: 18px;
     padding-left: 5px
-}
-
-.footer-avatar-eye {
-    width: 50px;
-    height: 50px;
-    background-color: #dfd2d2;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.footer-pupil {
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    border-radius: 50%;
-    border: 5px solid #413333;
-    filter: blur(.6px)
-}
-
-.footer-right-eye {
-    box-shadow: 15px 15px 5px rgba(0, 0, 0, .233) inset, 10px 10px 5px rgba(41, 33, 33, .644) inset;
-    position: relative
-}
-
-.footer-left-eye {
-    box-shadow: -10px -15px 5px rgba(0, 0, 0, .349) inset;
-    position: relative
-}
-
-.footer-avatar-eye::before {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(214, 214, 214, .726);
-    z-index: 2;
-    filter: blur(.2px);
-    left: 15px;
-    transform: rotate(45deg)
 }
 
 .footer-bottom {
