@@ -428,40 +428,6 @@ noscript{
 
     padding-left: 1px;
 }
-.eye{
-   width: 8px;
-   height: 8px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: white;
-   overflow: hidden;
-
-
-}
-.left-eye{
-    box-shadow: -1px -2px 2px rgba(0, 0, 0, 0.589) inset;
-}
-.right-eye{
-    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.589) inset;
-}
-.pupil{
-    width:3.5px;
-    height:3.5px;
-    background: rgb(36, 16, 16);
-    border-radius: 50%;
-}
-/* .eye:after { 
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    left: .7px;
-    top: 0;
-    background: #000;
-    border-radius: 50%;
-    content: " ";
-  } */
 
 .logo:hover{
     transform: translateY(200px);
