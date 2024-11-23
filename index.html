@@ -193,11 +193,22 @@
           I am seeking a position with a government defense contractor, national laboratory, telecom provider, or similar cybersecurity-focused organization.
         </p>
         <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-          <a href="mailto:infovinodjangid@gmail.com" tabindex="-1">
-            <button class="letsTalkBtn">
+            <button class="letsTalkBtn" id="scrollButton">
               <p class="letsTalkBtn-text">Let's Talk!</p>
               <span class="letsTalkBtn-BG"></span>
             </button></a>
+  <script>       
+    AOS.init();
+
+    document.getElementById("scrollButton").addEventListener("click", function() {
+   
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth' 
+      });
+    });
+  </script>
+          
           <div class="setting-container" id="setting-container">
             <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
 
