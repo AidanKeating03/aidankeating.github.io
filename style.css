@@ -982,11 +982,11 @@ noscript {
 }
 
 .dp::before {
-    box-shadow: 2px 2px 0 inset #8000ff, -2px -2px 0 inset transparent
+    box-shadow: 10px 10px 0 inset #8000ff, -10px -10px 0 inset transparent
 }
 
 .dp::after {
-    box-shadow: 2px 2px 0 inset transparent, -2px -2px 0 inset #8000ff
+    box-shadow: 10px 10px 0 inset transparent, -10px -10px 0 inset #8000ff
 }
 
 .dp:hover::after {
