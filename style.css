@@ -952,7 +952,7 @@ noscript {
 .projectsHeadingP,
 .sectionHeadingP,
 .skillsHeadingP {
-    width: 300px;
+    width: 200px;
     height: 1px;
     background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink))
 }
@@ -982,11 +982,11 @@ noscript {
 }
 
 .dp::before {
-    box-shadow: 10px 10px 0 inset #8000ff, -10px -10px 0 inset transparent
+    box-shadow: 2px 2px 0 inset #8000ff, -2px -2px 0 inset transparent
 }
 
 .dp::after {
-    box-shadow: 10px 10px 0 inset transparent, -10px -10px 0 inset #8000ff
+    box-shadow: 2px 2px 0 inset transparent, -2px -2px 0 inset #8000ff
 }
 
 .dp:hover::after {
