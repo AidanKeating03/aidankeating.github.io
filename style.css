@@ -990,11 +990,11 @@ noscript {
 }
 
 .dp:hover::after {
-    transform: translate(10px, 10px)
+    transform: translate(25px, 25px)
 }
 
 .dp:hover::before {
-    transform: translate(-20px, -20px)
+    transform: translate(-40px, -40px)
 }
 
 .skills-section-container {
