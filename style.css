@@ -934,7 +934,7 @@ noscript {
 .dp img,
 .dp::after,
 .dp::before {
-    width: 300px
+    width: 350px
 }
 
 .projects-heading-article,
@@ -1652,7 +1652,7 @@ footer {
     .info-dp-section {
         flex-direction: column;
         margin-top: 30px;
-        gap: 30px
+        gap: 50px
     }
 
     .about-info {
