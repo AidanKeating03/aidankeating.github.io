@@ -1118,6 +1118,13 @@ noscript {
     float: left
 }
 
+.cert-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px
+}
+
 .cta,
 .cta span,
 .cta svg,
