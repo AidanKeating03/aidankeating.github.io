@@ -1098,6 +1098,43 @@ noscript {
     font-weight: 500
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+.cert-box {
+    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
+}
+
+.tech-stack-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px
+}
+
+.cert-box,
+.tooltip {
+    align-items: left;
+    display: flex
+}
+
+.cert-box {
+    width: 800px;
+    height: 160px;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid var(--tech-stack-box-border-color);
+    position: relative
+}
+
+.cert-box img {
+    width: 80%
+}
+
+.cert-box:hover .tooltip {
+    opacity: 1;
+    transition-duration: .3s
+}
+
 .cta,
 .cta span,
 .cta svg,
