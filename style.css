@@ -1104,13 +1104,6 @@ noscript {
     background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
 }
 
-.tech-stack-wrapper {
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-top: 50px
-}
-
 .cert-box {
     width: 1000px;
     height: 160px;
