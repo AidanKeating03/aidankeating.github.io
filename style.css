@@ -1114,14 +1114,14 @@ noscript {
 .cert-box {
     width: 500px;
     height: 160px;
-    justify-content: center;
+    justify-content: left;
     border-radius: 30px;
     border: 1px solid var(--tech-stack-box-border-color);
     position: relative
 }
 
 .cert-box img {
-    width: 80%
+    width: 20%
 }
 
 .cta,
