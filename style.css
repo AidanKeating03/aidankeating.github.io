@@ -1098,32 +1098,6 @@ noscript {
     font-weight: 500
 }
 
------------------------------------------------------------------------------------------------------------------------------
-
-.cert-box {
-    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
-}
-
-.cert-box {
-    width: 800px;
-    height: 160px;
-    justify-content: center;
-    border-radius: 30px;
-    border: 1px solid var(--tech-stack-box-border-color);
-    position: relative
-}
-
-.cert-box img {
-    width: 15%;
-}
-
-.cert-wrapper {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-top: 50px
-}
-
 .cta,
 .cta span,
 .cta svg,
