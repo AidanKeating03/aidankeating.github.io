@@ -65,7 +65,7 @@ body {
       rgba(32, 128, 32, 0.2) 3%,
       transparent 100%);
   background-repeat: no-repeat;
-  animation: scan 7.5s linear 0s infinite;
+  animation: scan 5s linear 0s infinite;
 }
 
 @keyframes scan {
@@ -89,37 +89,6 @@ body {
       0 0 1px rgba(51, 255, 51, 0.4),
       0 0 2px rgba(255, 255, 255, 0.8);
 }
-
-.output::before {
-  content: "> ";
-}
-
-/*
-.input {
-  color: rgba(192, 255, 192, 0.8);
-  text-shadow:
-      0 0 1px rgba(51, 255, 51, 0.4),
-      0 0 2px rgba(255, 255, 255, 0.8);
-}
-
-.input::before {
-  content: "$ ";
-}
-*/
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a::before {
-  content: "[";
-}
-
-a::after {
-  content: "]";
-}
-
 ------------------------------------------------------------------------
 
 #labelforsetting,
